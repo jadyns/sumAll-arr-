@@ -1,0 +1,7 @@
+sumAll(arr) {
+  int sum = 0;
+  for (int i = arr[0]; i<= arr[1]; i++){
+    sum += i;
+  }
+  return sum;
+}
