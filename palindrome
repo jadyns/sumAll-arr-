@@ -1,9 +1,0 @@
-function palindrome(str) {
-  var cleanStr = str.replace(/[^0-9a-z]/gi, '').toLowerCase();
-  var compare = cleanStr.split('').reverse().join('');
-  if (cleanStr == compare) {
-    return true;
-  } else {
-    return false;
-  }
-}
